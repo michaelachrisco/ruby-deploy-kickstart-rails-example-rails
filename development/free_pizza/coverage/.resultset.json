@@ -1,0 +1,36 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/michaelchrisco/dev/development/free_pizza/spec/lib/free_pizza_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1429640319
+  }
+}

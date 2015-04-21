@@ -1,0 +1,220 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/autocomplete/json?city=Fresno&input=Pizza&key=12345
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Mon, 20 Apr 2015 23:34:49 GMT
+      Expires:
+      - Mon, 20 Apr 2015 23:34:49 GMT
+      Cache-Control:
+      - private, max-age=300
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 443:quic,p=1
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Language,Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "predictions" : [
+              {
+                 "description" : "Pizza Hut, Visalia, CA, United States",
+                 "id" : "9885e31eea6ff459e28ff96200842000e76b9e39",
+                 "matched_substrings" : [
+                    {
+                       "length" : 5,
+                       "offset" : 0
+                    }
+                 ],
+                 "place_id" : "ChIJWQ0KCrQolYARAre4DvV_C2s",
+                 "reference" : "CkQzAAAA7axOCWk_wkSWfdZWFqGuxokfuD_hd6uaEHsI1gQG_PRsHKBxX8MLSDSzWHeN50PXzN8glCOOXyeGTRXSTBEDbBIQSY9TkYaXGqHL-jxZ_G6jcBoUV592J1h3hMrWv6YB5t4Dk2TU6Jk",
+                 "terms" : [
+                    {
+                       "offset" : 0,
+                       "value" : "Pizza Hut"
+                    },
+                    {
+                       "offset" : 11,
+                       "value" : "Visalia"
+                    },
+                    {
+                       "offset" : 20,
+                       "value" : "CA"
+                    },
+                    {
+                       "offset" : 24,
+                       "value" : "United States"
+                    }
+                 ],
+                 "types" : [ "establishment" ]
+              },
+              {
+                 "description" : "Pizza Hut, East Tulare Avenue, Visalia, CA, United States",
+                 "id" : "4d63852ba26ce37cd97ac510fc1845347f6047f8",
+                 "matched_substrings" : [
+                    {
+                       "length" : 5,
+                       "offset" : 0
+                    }
+                 ],
+                 "place_id" : "ChIJn2gjwHIvlYAR-MKLZ9HFfsE",
+                 "reference" : "ClRIAAAAe8rkVAWXGoqKj3t5HU9cmDZCpkjy9ZKGcwRDvmtg08IyWJB5KWMU9fdfuUDBzxDJY7qWxc826Zaum3Ohg4bnm_jkRo_puj4kzNe3mF-g9gESEBdZizt6jUAIgYiLt4TSkmoaFFZhHf4EIgl0DVH73rgQqrFZh3OJ",
+                 "terms" : [
+                    {
+                       "offset" : 0,
+                       "value" : "Pizza Hut"
+                    },
+                    {
+                       "offset" : 11,
+                       "value" : "East Tulare Avenue"
+                    },
+                    {
+                       "offset" : 31,
+                       "value" : "Visalia"
+                    },
+                    {
+                       "offset" : 40,
+                       "value" : "CA"
+                    },
+                    {
+                       "offset" : 44,
+                       "value" : "United States"
+                    }
+                 ],
+                 "types" : [ "establishment" ]
+              },
+              {
+                 "description" : "Pizza Factory, West Noble Avenue, Visalia, CA, United States",
+                 "id" : "7ae78970f5ef4177643f0958c37bbffcbc73cdf9",
+                 "matched_substrings" : [
+                    {
+                       "length" : 5,
+                       "offset" : 0
+                    }
+                 ],
+                 "place_id" : "ChIJ1yJiw6oolYARvqWr4B1jjuY",
+                 "reference" : "ClRLAAAAQ-dQbYD02_ev1Ab1tMy8bB2mKbt5mp9o6-MMop-p743NXNui1cr4heQJGMK-9kBDHriG-TnTDTdwH4CUq2FOaNT9t7rrD0DToj6i_9fQwvQSEDiI546lfZ4UFVYwu_CzSSUaFLki-xD-atGQSgeikpHVaxiv1J_q",
+                 "terms" : [
+                    {
+                       "offset" : 0,
+                       "value" : "Pizza Factory"
+                    },
+                    {
+                       "offset" : 15,
+                       "value" : "West Noble Avenue"
+                    },
+                    {
+                       "offset" : 34,
+                       "value" : "Visalia"
+                    },
+                    {
+                       "offset" : 43,
+                       "value" : "CA"
+                    },
+                    {
+                       "offset" : 47,
+                       "value" : "United States"
+                    }
+                 ],
+                 "types" : [ "establishment" ]
+              },
+              {
+                 "description" : "Pizza Hut, Herndon Avenue, Clovis, CA, United States",
+                 "id" : "9431b900020bc17dba77f99ab6a78e710a8df94e",
+                 "matched_substrings" : [
+                    {
+                       "length" : 5,
+                       "offset" : 0
+                    }
+                 ],
+                 "place_id" : "ChIJxzA-6WVblIARt4Xdm5ICkuc",
+                 "reference" : "ClRDAAAAzR8CGXRjo-gEszkTYF_rR6-GcE8t5Mvp2z0jNjqEz58QlZhmiX6KpGwCArVbTE4KpWdttW9eANLA0d3cqOm4FnaO2aglgxqmuLN3w4ujDRkSEPmRXIGUao2cDJpFiyvmD7AaFCcV14mSrbej64sMb0H6eMsxpuyY",
+                 "terms" : [
+                    {
+                       "offset" : 0,
+                       "value" : "Pizza Hut"
+                    },
+                    {
+                       "offset" : 11,
+                       "value" : "Herndon Avenue"
+                    },
+                    {
+                       "offset" : 27,
+                       "value" : "Clovis"
+                    },
+                    {
+                       "offset" : 35,
+                       "value" : "CA"
+                    },
+                    {
+                       "offset" : 39,
+                       "value" : "United States"
+                    }
+                 ],
+                 "types" : [ "establishment" ]
+              },
+              {
+                 "description" : "Pizza Hut, Fresno, CA, United States",
+                 "id" : "6e9f89811f8f8c224298b0aea49c359282c724af",
+                 "matched_substrings" : [
+                    {
+                       "length" : 5,
+                       "offset" : 0
+                    }
+                 ],
+                 "place_id" : "ChIJR-fl0ZlglIARp67BwVtp1dY",
+                 "reference" : "CkQzAAAAMwIEMnMLh9eckb7-pMNNTn6qPhNe0KhI3sjlgXoApDNVNS6XfN1lcc5wJt6gfoXHbO4NPFWh5zPDddcvA9gP7hIQtIihuLjGmLqOVZR_eNA23xoUW8sKJg-0waUT3Stzlst4zMTBRqs",
+                 "terms" : [
+                    {
+                       "offset" : 0,
+                       "value" : "Pizza Hut"
+                    },
+                    {
+                       "offset" : 11,
+                       "value" : "Fresno"
+                    },
+                    {
+                       "offset" : 19,
+                       "value" : "CA"
+                    },
+                    {
+                       "offset" : 23,
+                       "value" : "United States"
+                    }
+                 ],
+                 "types" : [ "establishment" ]
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version:
+  recorded_at: Mon, 20 Apr 2015 23:34:49 GMT
+recorded_with: VCR 2.9.3
